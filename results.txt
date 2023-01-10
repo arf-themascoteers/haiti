@@ -1,3 +1,8 @@
+RGB 79.21
+HSV 80.82
+MOD_HSV 81.77
+
+
 C:\Users\Administrator\.virtualenvs\haiti\Scripts\python.exe C:/Users/Administrator/Desktop/haiti/run_rgb.py
 Starting training
 Starting testing
