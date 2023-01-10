@@ -1,0 +1,136 @@
+C:\Users\Administrator\.virtualenvs\haiti\Scripts\python.exe C:/Users/Administrator/Desktop/haiti/run_rgb.py
+Starting training
+Starting testing
+Test started ...
+Correct:96.44
+Starting training
+Starting testing
+Test started ...
+Correct:95.45
+Starting training
+Starting testing
+Test started ...
+Correct:85.06
+Starting training
+Starting testing
+Test started ...
+Correct:85.16
+Starting training
+Starting testing
+Test started ...
+Correct:80.42
+Starting training
+Starting testing
+Test started ...
+Correct:78.83
+Starting training
+Starting testing
+Test started ...
+Correct:44.91
+Starting training
+Starting testing
+Test started ...
+Correct:41.35
+Starting training
+Starting testing
+Test started ...
+Correct:91.89
+Starting training
+Starting testing
+Test started ...
+Correct:92.58
+Final Result:79.21
+
+Process finished with exit code 0
+
+
+C:\Users\Administrator\.virtualenvs\haiti\Scripts\python.exe C:/Users/Administrator/Desktop/haiti/run_hsv.py
+Starting training
+Starting testing
+Test started ...
+Correct:96.83
+Starting training
+Starting testing
+Test started ...
+Correct:95.05
+Starting training
+Starting testing
+Test started ...
+Correct:86.55
+Starting training
+Starting testing
+Test started ...
+Correct:80.02
+Starting training
+Starting testing
+Test started ...
+Correct:82.59
+Starting training
+Starting testing
+Test started ...
+Correct:78.93
+Starting training
+Starting testing
+Test started ...
+Correct:52.23
+Starting training
+Starting testing
+Test started ...
+Correct:49.65
+Starting training
+Starting testing
+Test started ...
+Correct:94.16
+Starting training
+Starting testing
+Test started ...
+Correct:92.19
+Final Result:80.82
+
+Process finished with exit code 0
+
+C:\Users\Administrator\.virtualenvs\haiti\Scripts\python.exe C:/Users/Administrator/Desktop/haiti/run_mod_hsv.py
+Starting training
+Starting testing
+Test started ...
+Correct:97.03
+Starting training
+Starting testing
+Test started ...
+Correct:95.35
+Starting training
+Starting testing
+Test started ...
+Correct:88.23
+Starting training
+Starting testing
+Test started ...
+Correct:88.82
+Starting training
+Starting testing
+Test started ...
+Correct:80.02
+Starting training
+Starting testing
+Test started ...
+Correct:76.36
+Starting training
+Starting testing
+Test started ...
+Correct:52.82
+Starting training
+Starting testing
+Test started ...
+Correct:52.72
+Starting training
+Starting testing
+Test started ...
+Correct:94.07
+Starting training
+Starting testing
+Test started ...
+Correct:92.28
+Final Result:81.77
+
+Process finished with exit code 0
+
