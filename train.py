@@ -18,6 +18,6 @@ def train(dataset, model):
             loss = F.cross_entropy(y_pred, y_true)
             loss.backward()
             optimizer.step()
-            print(f'Epoch:{epoch + 1}, Loss:{loss.item():.4f}')
+            #print(f'Epoch:{epoch + 1}, Loss:{loss.item():.4f}')
 
     return model

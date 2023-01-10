@@ -1,14 +1,19 @@
 import train
 import test
-from haiti_dataset import HaitiDataset
 from haiti_mod_machine import HaitiModMachine
+from dataset_manager import get_ds
 
-train_ds = HaitiDataset(is_train=True, ctype="mod_hsv")
-test_ds = HaitiDataset(is_train=False, ctype="mod_hsv")
-model = HaitiModMachine()
-print("Starting training")
-model = train.train(train_ds, model)
+accuracy = []
 
-print("Starting testing")
-percent = test.test(test_ds, model)
-print(f'Correct:{percent:.2f}')
+for train_ds, test_ds in get_ds(ctype="mod_hsv"):
+    model = HaitiModMachine()
+    print("Starting training")
+    model = train.train(train_ds, model)
+
+    print("Starting testing")
+    percent = test.test(test_ds, model)
+    accuracy.append(percent)
+    print(f'Correct:{percent:.2f}')
+
+accuracy = sum(accuracy)/len(accuracy)
+print(f'Final Result:{accuracy:.2f}')
