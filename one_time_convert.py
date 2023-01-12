@@ -1,6 +1,6 @@
 import pandas as pd
 import colour
-import numpy as np
+
 
 df = pd.read_csv("rgb.csv")
 npdf = df.to_numpy()
