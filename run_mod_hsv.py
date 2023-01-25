@@ -15,5 +15,7 @@ for train_ds, test_ds in get_ds(ctype="mod_hsv"):
     accuracy.append(percent)
     print(f'Correct:{percent:.2f}')
 
+    exit()
+
 accuracy = sum(accuracy)/len(accuracy)
 print(f'Final Result:{accuracy:.2f}')
